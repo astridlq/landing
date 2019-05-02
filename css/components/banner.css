@@ -1,0 +1,47 @@
+.banner{
+background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../../images/background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-category {
+
+  color: #FFFFFF;
+  font-size: 25px;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width:  1000px;
+  height: 600px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+.card-category h2{
+  font-size: 32px;
+  margin: none;
+}
+
+.card-category p {
+  font-weight: normal;
+  color: #AEAFB0;
+  font-size: 20px;
+}
+
+.btn {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 15px 25px;
+  background-color: #68DE89;
+  border-radius: 30px;
+  width: 100px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #5BC265;
+}
